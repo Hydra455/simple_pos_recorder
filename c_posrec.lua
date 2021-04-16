@@ -28,6 +28,4 @@ function a()
         local x, y, z = getElementPosition(localPlayer)
         if recording then
             fileWrite(path, "\n"..x..","..y..","..z.."")
-        else
-        end
         end
